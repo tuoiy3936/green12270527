@@ -16,7 +16,7 @@
         height: 100px;
       }
       .big {
-        width: 1200px;
+        width: 1280px;
         border: 1px solid;
       }
       div.small {
@@ -35,14 +35,13 @@
       p:first-child {
         left: 0;
       }
-      div.big p:nth-child(2) {
-        /* display: inline-block; */
-        left: calc(50% - 120px);
+      p:nth-child(2) {
+        left: calc(50% - (20% / 2));
       }
-      div.small p:nth-child(2) {
-        /* display: inline-block; */
+      /*div.small p:nth-child(2) {
+        /* display: inline-block; 
         left: calc(50% - 100px);
-      }
+      }*/
       p:last-child {
         right: 0;
       }
