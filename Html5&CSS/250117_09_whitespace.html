@@ -6,7 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>white-space</title>
     <style>
-      
+      div{width: 500px;border: 1px solid;margin: 10px;}
+      .normal{white-space:normal;}
+      .nowrap{white-space:nowrap;overflow: hidden;text-overflow: ellipsis;}
+      .pre{white-space:pre;}
+      .pre-wrap{white-space:pre-wrap;}
+      .pre-line{white-space:pre-line;visibility: visible;}
     </style>
   </head>
   <body>
@@ -18,7 +23,7 @@
       Ipsum is simply dummy text of the printing and typesetting industry</div>
     <div class="pre-wrap">L       orem 
       Ipsum is simply dummy text of the printing and typesetting industry</div>
-    <div class="pre-l">L       orem 
+    <div class="pre-line">L       orem 
       Ipsum is simply dummy text of the printing and typesetting industry</div>
   </body>
 </html>
